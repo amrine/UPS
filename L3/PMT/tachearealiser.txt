@@ -1,0 +1,28 @@
+Application :
+	programme serveur :
+		1-être activé avant toute autre operation
+		2-met en place le tube nommé avec lequel les utilisateurs communiquent 	(connection,soumission requete)
+		3- crée les objets necessaire a la bonne gestion des services
+		
+			le serveur doit boucler sur la lecture des requêtes dans le tube d’entrée
+			
+			Pour chaque requête reçue, le serveur va créer un thread qui sera chargé de traiter cette requête
+			
+			le thread dédié à cette requête, va transmettre cette réponse dans un tube nommé qui aura été créé auparavant par l’utilisateur et dont l’identité a été 				fournie au serveur en même temps que la requête
+			
+			Le thread disparaît lorsque la requête a été traitée.
+			le serveur conservera une trace de son  activité dans un fichier « log ».
+			
+	programme utilisateur :
+		1-est appelé par tout utilisateur souhaitant émettre une requête au serveur
+		2-transmet sa requête et toute information complémentaire dans un tube nommé public dont l’identité est connue de tous
+		3-pour charge de créer le tube nécessaire à la transmission de la réponse à sa requête
+		4-devra indiquer l’identité de ce tube au serveur afin que ce dernier puisse lui transmettre la réponse à sa requête.
+		5-aura aussi pour charge de supprimer ce tube nommé en fin de traitement.
+		
+		
+les deux programmes communiquent par des tubes nommées
+
+Le traitement des requêtes.
+Comme il a été dit précédemment, le thème des requêtes traitées dans cet exercice est sans intérêt.
+On simulera ces traitements par des appels de fonctions diverses.

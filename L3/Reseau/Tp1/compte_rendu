@@ -1,0 +1,113 @@
+	  ******* DHCP *******
+DHCP : Dynamic Host Configuration Protocol (DHCP) est un protocole réseau dont le rôle est d’assurer la configuration automatique des paramètres IP 
+d’une station, notamment en lui affectant automatiquement une adresse IP et un masque de sous-réseau.
+
+Q1-) Les messages DHCP sont envoyés au dessus  de UDP (user datagram protocol).
+
+Q2-)  Diagramme temporel d'échange de messages entre le client et le serveur DHCP :
+voir DHCP_graphes .
+
+Q3-) L'ip du serveur est 192.168.0.254.
+
+Q4-) La nouvelle IP du clent contient le message d'acquittement, cette adrèsse IP est 192.168.0.10.
+
+Q5-)  La durée de vie de l'adresse renvoyée par le serveur est de 10 jours.
+
+
+
+	  ******* TELNET *******
+Q1-) Les messages de la session telnet sont ils envoyés sur TCP (Transmission Control Protocol).
+
+Q2-) Le login utilisé est guest, le mot de passe est trivial, l'adrèsse ip est 192.168.0.6.
+
+Q3-) La commande tapée est pwd, la réponse est /home/guest. (voir TELNET_commande pour plus de détails)
+
+Q4-)  Diagramme (voir TELNET_graphes).
+
+	   ******* DNS *******
+DNS : Le Domain Name System (ou DNS, système de noms de domaine) est un service permettant de traduire un nom de domaine en informations de plusieurs types qui y sont associées, notamment en adresses IP de la machine portant ce nom.
+
+Q1-)  Les messages dns, sont ils envoyé sur UDP.
+
+Q2-) Le type de requête DNS est de type A et non, il n'y a pas de answer dans les requetes.
+
+Q3-) Il ya 4 réponses données.
+
+	   ******* PING *******
+PING : Ping est un outil permettant de tester l'accessibilité d'une autre machine à travers un réseau IP. La commande mesure également le temps mis pour recevoir une réponse, appelé round-trip time (temps aller-retour). Ping utilise une requête ICMP Echo et attend une réponse Echo reply. L'envoi est répété pour des fins statistiques : déterminer le taux de paquet perdu et le délai moyen. Si d'autres messages ICMP sont reçus de la part de routeurs intermédiaires (comme TTL exceeded, Fragmentation needed, administratively prohibited...), ils sont affichés à l'écran. Quand le paramètre TTL (Time to Live) est affiché, il permet d'estimer le nombre de routeurs intermédiaires.
+
+Q1-)  Le protocole utilisé est le protocole ICMP (Internet Control Message Protocol est l'un des protocoles fondamentaux constituant la suite de protocoles Internet. Il est utilisé pour véhiculer des messages de contrôle et d'erreur pour cette suite de protocoles, par exemple lorsqu'un service ou un hôte est inaccessible.).
+
+Q2-) Les paquets ICMP n'ont pas de port de départ/destination.
+
+Q3-) La différence de messages utilisés pour traiter les deux commandes.
+!(ip.dst == 204.152.191.37) ==> 101
+
+Q4-) Diagrammes (voir PING_101_graphes et PING_115_graphes).
+
+
+           ******* FTP *******
+
+1/ Trouvez tous les 44 messages de la session ftp, sont ils envoyés sur UDP
+ou TCP ? Quel filtre utilisez vous ?
+* Ils sont envoyés sur TCP
+* On utilisera un filtre IP
+
+2/ Quel est le login utilisé ? Le mot de passe ?
+* login: anonymous
+* password: toto@titi.fr
+
+3/ Quel est le nom du fichier transféré ?
+Le nom du fichier est:  "Much more than just kernels"
+
+4/ Trouvez le contenu du fichier transféré.
+
+230-...    Welcome to the
+230-
+230-...LINUX KERNEL ARCHIVES
+230-...    ftp.kernel.org
+230-
+230-..    "Much more than just kernels"
+230-
+230-.   IF YOU'RE ACCESSING THIS SITE VIA A WEB BROWSER
+230-..PLEASE USE THE HTTP URL BELOW INSTEAD!
+230-
+230----->       If you are looking for mirror sites, please go       <----
+230----->..    to mirrors.kernel.org instead                <----
+230-
+230-This site is provided as a public service by the Linux Kernel
+230-Organization, a California nonprofit corporation.  Bandwidth is
+230-provided by The Internet Software Consortium, Inc.  Our servers are
+230-located in San Francisco and Palo Alto, California; Corvallis, Oregon;
+230-Amsterdam, Netherlands and Ume.., Sweden; use in violation of any
+230-applicable laws strictly prohibited.
+230-
+230-Due to U.S. Exports Regulations, all cryptographic software on this
+230-site is subject to the following legal notice:
+230-
+230-    This site includes publicly available encryption source code
+230-    which, together with object code resulting from the compiling of
+230-    publicly available source code, may be exported from the United
+230-    States under License Exception "TSU" pursuant to 15 C.F.R. Section
+230-    740.13(e).
+230-
+230-This legal notice applies to cryptographic software only.  Please see
+230-the Bureau of Industry and Security (http://www.bis.doc.gov/) for more
+230-information about current U.S. regulations.
+230-
+230-Neither the Linux Kernel Organization, nor its sponsors make any
+230-guarantees, explicit or implicit, about the contents of this site.
+230-Use at your own risk.
+230-
+230-This site is accessible via the following mechanisms:
+230-
+230-.FTP..ftp://ftp.kernel.org/pub/
+230-.HTTP..http://www.kernel.org/pub/
+230-.RSYNC..rsync://rsync.kernel.org/pub/
+230-
+230-NFS and SMB/CIFS are no longer available.
+230-
+230-For comments on this site, please contact <ftpadmin@kernel.org>.
+230-Please do not use this address for questions that are not related to
+230-the operation of this site.  Please see our homepage at
+230-http://www.kernel.org/ for links to Linux documentation resources.

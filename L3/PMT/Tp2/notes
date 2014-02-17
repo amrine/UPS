@@ -1,0 +1,14 @@
+le tube dont le nom est connu des clients reçoit les requetes
+le serveur fournit la reponse en creant un tube pour chaque client
+les processus client et seveur sont independants
+s'il n'y a pas de client le processus serveur est bloque en attente de lecture dans le tube
+quand un client se termine son tube est detruit
+
+L’envoi d’un message client (une requête)
+consiste en une écriture dans le tube nommé du serveur. La réception
+d’un message client consiste en la lecture dans le tube nommé du
+client.
+
+
+
+

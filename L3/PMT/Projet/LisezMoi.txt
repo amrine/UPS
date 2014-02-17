@@ -1,0 +1,27 @@
+Pour la réalisation de ce serveur multithread j'ai créer quatre fichiers :
+1-fonction.h : contenant les prototypes des differentes fonctions utilisées pour la réalisation de l'application.
+2-fonction.c : contenant le corps des fonctions dont les prototypes sont définis dans fonction.h
+3-serveur.c : (application serveur)
+4-client.c : (application client)
+
+L'application serveur/client est réalisée sur l'architecture  suivante :
+
+Niveau serveur : 
+on crée le tube de communication principal où tous les clients communiquent
+on boucle en lecture sur ce tube
+si un client se connecte, il entre le nom du tube sur lequel la reponse a sa requete sera fourni puis sa requete, 
+ces deux informations sont enregistrés dans une structure
+dès la reception de la requete qui est envoyé sous forme de structure, 
+le serveur crée un thread qui se chargera de traiter la requete du client
+si la requete est executer le serveur envoie la reponse dans le tube crée par le client, 
+detruit le thread qui a été créée, puis enregistre le passage du client 
+Niveau client :
+A ce niveau, le client entre les informations necessaires pour la transmission et l'execution de sa requete à savoir 
+le nom du tube qu'il crée pour recevoir la reponse à sa requete puis la requete qu'il veut executer, 
+ces deux informations seront transmises au serveur via le tube principal sous forme de structure
+Après reception de la reponse envoyé par le serveur sur le tube crée par le client, le client détruit ce tube.
+
+NB: si un signal SIGINT est emis on ferme les tubes ouverts puis on les détruit
+Les requetes traitées sont de types commande linux :
+exemple : pwd,ls,ls-l,cat nom_fichier,...... 
+

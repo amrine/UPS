@@ -1,0 +1,5 @@
+|Time     | 0.0.0.0           | 255.255.255.255   | 192.168.0.254     | 192.168.0.10      |
+|0,000    |         DHCP Request  - Tra           |                   |                   |DHCP: DHCP Request  - Transaction ID 0x3629232e
+|         |(68)     ------------------>  (67)     |                   |                   |
+|0,013    |                   |                   |         DHCP ACK      - Tra           |DHCP: DHCP ACK      - Transaction ID 0x3629232e
+|         |                   |                   |(67)     ------------------>  (68)     |

@@ -1,0 +1,27 @@
+.global _start
+_start:
+main: 	  	
+	ldr r0,=0b11100000000000000000000000000111 	  	@r0  registre contenant la valeur binaire a tester
+	
+	mov r1,#1								@r1  resultat palindrome 0 = faux 1=vrai
+	mov r2,#0								@r2  bit situe a gauche du registre 1 
+	mov r3,#0								@r3  bit situe a droite du registre 1
+	mov r4,#0								@r4  compteur
+	mov r5,r0								@r5	 copie du registre contenant la valeur pour le second decalage
+tantque: cmp r4,#16	
+	bhi exit 	
+	movs r0,r0,LSL#1 @decalage a gauche
+	adc r2,r2,#0
+	movs r5,r5,LSR#1 @decalage a droite
+	adc r3,r3,#0
+	add r4,r4,#1
+		   cmp r2,r3 @si les deux valeurs sont diffrentes on met r1 a faux donc 0
+		   movne r1,#0
+		   mov r3,#0
+		   mov r2,#0
+	b tantque
+exit:mov r0,#0x18 	@ les 3 instructions suivantes servent
+
+	ldr  r1,=0x20026 @ a rendre la main à Angel (moniteur)
+
+	swi  0x123456

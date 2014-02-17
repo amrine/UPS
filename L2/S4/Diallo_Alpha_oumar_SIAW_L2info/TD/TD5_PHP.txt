@@ -1,0 +1,37 @@
+Date : le 8/4/11
+TD5 - PHP
+
+
+> Base de donnees :
+
+LIVRE(NL, TITRE, EDITEUR, ANNEEPARUTION, FORMAT, PRIX)
+AUTEUR(NA, NOM, PRENOM, DATEN)
+ECRIRE(#NL, #NA)
+
+
+________________________
+recherche.html
+
+<html>
+	<head>
+		<title> Recherches </title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td> Titre du livre </td>
+				<td> <input type="text" name="titre"> </td>
+			</tr><tr>
+				<td> Auteur </td>
+				<td> <input type="" name=> </td>
+			</tr><tr>
+				<td> Format </td>
+				<td>  </td>
+			</tr>
+		</table>
+
+
+	</body>
+</html>
+
+

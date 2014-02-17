@@ -1,0 +1,7 @@
+Tube principal du serveur cree : date : Fri Dec  9 16:39:09 2011
+Client : tube cree : tube1 requete : ls date : Fri Dec  9 16:39:24 2011
+Client : tube cree : tube1 requete : ls date : Fri Dec  9 16:39:24 2011
+Client : tube cree : tube2 requete : ls -l date : Fri Dec  9 16:39:37 2011
+Client : tube cree : tube1 requete : ls date : Fri Dec  9 16:39:24 2011
+Client : tube cree : tube2 requete : ls -l date : Fri Dec  9 16:39:37 2011
+Client : tube cree : tube3 requete : cat LisezMoi.txt date : Fri Dec  9 16:40:20 2011

@@ -1,0 +1,24 @@
+commande:  setenv montrer les variables d'environnement
+	   alias  montrer les alias disponibles
+fichiers shell .tcshrc .bashrc .profile
+
+creer un alias :
+		alias gcc = 'gcc -Wall -ansi -pedantic -Werror'
+pour tenir compte des modifications
+		source (.tcshrc | .bashrc)
+		
+pour voir le contenu d'une archive zip sans l'extraire: 
+  unzip -l tuto.zip
+pour decompresser
+  unzip tuto.zip
+compresser
+  zip -r tuto.zip tuto/
+
+Copier un fichier de votre ordinateur vers un autre
+  scp image.png mateo21@85.123.10.201:/home/mateo21/images/
+
+Copier un fichier d'un autre ordinateur vers le vôtre
+  scp mateo21@85.123.10.201:image.png copie_image_sur_mon_pc.png
+
+je peux aussi copier le fichier sans changer le nom :
+  scp mateo21@85.123.10.201:image.png .

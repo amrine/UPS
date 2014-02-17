@@ -1,0 +1,194 @@
+<!DOCTYPE KTechlab>
+<document type="circuit" >
+ <item width="561" x="328" y="24" z="0" offset-x="0" offset-y="0" height="39" type="dp/text" id="canvas_text" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>Compteurs des minutes&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="5" y="356" z="29" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__1930" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L3&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="6" y="372" z="30" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__1931" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L2&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="7" y="387" z="31" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__1932" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L1&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="8" y="400" z="32" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__1933" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L0&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="142" x="36" y="7" z="23" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__397" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L = 9&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="142" x="30" y="324" z="24" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__398" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L = 5&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="10" y="35" z="25" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__399" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L3&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="11" y="51" z="26" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__400" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L2&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="12" y="66" z="27" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__401" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L1&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="56" x="13" y="79" z="28" offset-x="0" offset-y="0" height="24" type="dp/text" id="canvas_text__402" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>L0&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="106" x="172" y="260" z="1" offset-x="0" offset-y="0" height="44" type="dp/text" id="canvas_text__895" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>Cpt unité&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item width="106" x="279" y="463" z="2" offset-x="0" offset-y="0" height="44" type="dp/text" id="canvas_text__896" flip="0" angle="0" >
+  <data value="&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;/head>&lt;body>
+&lt;p>&lt;span style=&quot;font-weight:600&quot;>Cpt dizaine&lt;/span>&lt;/p>
+&lt;/body>&lt;/html>" type="string" id="text" />
+  <data value="#ffffff" type="color" id="background-color" />
+  <data value="#000000" type="color" id="frame-color" />
+  <data value="0" type="bool" id="background" />
+ </item>
+ <item x="508" y="140" z="3" type="ec/external_connection" id="external_connection__898" flip="0" angle="0" >
+  <data value="V2u" type="string" id="name" />
+ </item>
+ <item x="508" y="172" z="4" type="ec/external_connection" id="external_connection__899" flip="0" angle="0" >
+  <data value="V1u" type="string" id="name" />
+ </item>
+ <item x="508" y="204" z="5" type="ec/external_connection" id="external_connection__900" flip="0" angle="0" >
+  <data value="V0u" type="string" id="name" />
+ </item>
+ <item x="508" y="108" z="6" type="ec/external_connection" id="external_connection__901" flip="0" angle="0" >
+  <data value="V3u" type="string" id="name" />
+ </item>
+ <item x="500" y="340" z="7" type="ec/external_connection" id="external_connection__902" flip="0" angle="0" >
+  <data value="V3d" type="string" id="name" />
+ </item>
+ <item x="500" y="372" z="8" type="ec/external_connection" id="external_connection__903" flip="0" angle="0" >
+  <data value="V2d" type="string" id="name" />
+ </item>
+ <item x="500" y="404" z="9" type="ec/external_connection" id="external_connection__904" flip="0" angle="0" >
+  <data value="V1d" type="string" id="name" />
+ </item>
+ <item x="500" y="436" z="10" type="ec/external_connection" id="external_connection__905" flip="0" angle="0" >
+  <data value="V0d" type="string" id="name" />
+ </item>
+ <item x="44" y="180" z="11" type="ec/external_connection" id="external_connection__906" flip="0" angle="180" >
+  <data value="C_m" type="string" id="name" />
+ </item>
+ <item x="36" y="468" z="12" type="ec/external_connection" id="external_connection__907" flip="0" angle="180" >
+  <data value="S" type="string" id="name" />
+ </item>
+ <item x="68" y="60" z="13" type="ec/logic_input" id="logic_input" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="0" />
+ </item>
+ <item x="68" y="92" z="14" type="ec/logic_input" id="logic_input__908" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="1" />
+ </item>
+ <item x="68" y="76" z="15" type="ec/logic_input" id="logic_input__909" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="0" />
+ </item>
+ <item x="68" y="44" z="16" type="ec/logic_input" id="logic_input__910" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="1" />
+ </item>
+ <item x="60" y="364" z="17" type="ec/logic_input" id="logic_input__911" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="0" />
+ </item>
+ <item x="60" y="380" z="18" type="ec/logic_input" id="logic_input__912" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="1" />
+ </item>
+ <item x="60" y="396" z="19" type="ec/logic_input" id="logic_input__913" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="0" />
+ </item>
+ <item x="60" y="412" z="20" type="ec/logic_input" id="logic_input__914" flip="0" angle="0" >
+  <data value="1" type="bool" id="useToggle" />
+  <button id="button" state="1" />
+ </item>
+ <item x="204" y="180" z="21" type="ec/subcircuit" id="subcircuit" flip="0" angle="0" >
+  <data value="15" type="number" id="id" />
+ </item>
+ <item x="188" y="420" z="22" type="ec/subcircuit" id="subcircuit__915" flip="0" angle="0" >
+  <data value="15" type="number" id="id" />
+ </item>
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="logic_input__908" route="31,20,32,20,32,19,32,18,32,17,32,16,32,15,32,14,32,13,32,12,32,11,31,11,30,11,29,11,28,11,27,11,26,11,25,11,24,11,23,11,22,11,21,11,20,11,19,11,18,11,17,11,16,11,15,11,14,11,13,11,12,11,11,11,10,11," end-node-cid="p1" start-node-parent="subcircuit" start-node-cid="8" id="connector__396" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit" route="10,9,11,9,12,9,13,9,14,9,15,9,16,9,17,9,18,9,19,9,20,9,21,9,22,9,23,9,24,9,25,9,26,9,27,9,28,9,29,9,30,9,31,9,32,9,33,9,34,9,34,10,34,11,34,12,34,13,34,14,34,15,34,16,34,17,34,18,33,18,32,18,31,18," end-node-cid="9" start-node-parent="logic_input__909" start-node-cid="p1" id="connector__916" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit" route="10,7,11,7,11,8,11,9,11,10,11,11,11,12,11,13,11,14,11,15,11,16,11,17,11,18,11,19,11,20,12,20,13,20,14,20,15,20,16,20,17,20,18,20,19,20," end-node-cid="1" start-node-parent="logic_input" start-node-cid="p1" id="connector__917" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit" route="10,5,11,5,12,5,13,5,13,6,13,7,13,8,13,9,13,10,13,11,13,12,13,13,13,14,13,15,13,16,13,17,13,18,14,18,15,18,16,18,17,18,18,18,19,18," end-node-cid="0" start-node-parent="logic_input__910" start-node-cid="p1" id="connector__918" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="19,24,18,24,17,24,16,24,16,25,16,26,16,27,16,28,16,29,16,30,16,31,16,32,16,33,16,34,16,35,16,36,16,37,16,38,16,39,16,40,16,41,16,42,16,43,16,44,16,45,16,46,16,47,16,48,16,49,16,50,16,51,16,52,17,52," end-node-cid="2" start-node-parent="subcircuit" start-node-cid="3" id="connector__919" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="9,51,10,51,10,52,10,53,10,54,10,55,10,56,10,57,10,58,10,59,10,60,11,60,12,60,13,60,14,60,15,60,16,60,17,60,18,60,19,60,20,60,21,60,22,60,23,60,24,60,25,60,26,60,27,60,28,60,29,60,30,60,30,59,30,58,30,57,30,56,30,55,30,54,30,53,30,52,30,51,30,50,29,50," end-node-cid="8" start-node-parent="logic_input__914" start-node-cid="p1" id="connector__920" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="9,49,10,49,10,48,10,47,10,46,10,45,10,44,11,44,12,44,13,44,14,44,15,44,16,44,17,44,18,44,19,44,20,44,21,44,22,44,23,44,24,44,25,44,26,44,27,44,28,44,29,44,30,44,30,45,30,46,30,47,30,48,29,48," end-node-cid="9" start-node-parent="logic_input__913" start-node-cid="p1" id="connector__921" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="9,47,10,47,11,47,11,48,11,49,11,50,12,50,13,50,14,50,15,50,16,50,17,50," end-node-cid="1" start-node-parent="logic_input__912" start-node-cid="p1" id="connector__922" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="9,45,10,45,11,45,12,45,12,46,12,47,12,48,13,48,14,48,15,48,16,48,17,48," end-node-cid="0" start-node-parent="logic_input__911" start-node-cid="p1" id="connector__923" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit" route="7,22,8,22,9,22,10,22,11,22,12,22,13,22,14,22,15,22,16,22,17,22,18,22,19,22," end-node-cid="2" start-node-parent="external_connection__906" start-node-cid="n1" id="connector__924" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="subcircuit__915" route="6,58,7,58,7,57,7,56,7,55,7,54,8,54,9,54,10,54,11,54,12,54,13,54,14,54,15,54,16,54,17,54," end-node-cid="3" start-node-parent="external_connection__907" start-node-cid="n1" id="connector__925" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__901" route="19,26,18,26,18,27,18,28,18,29,18,30,19,30,20,30,21,30,22,30,23,30,24,30,25,30,26,30,27,30,28,30,29,30,30,30,31,30,32,30,33,30,34,30,35,30,36,30,36,29,36,28,36,27,36,26,36,25,36,24,36,23,36,22,36,21,36,20,36,19,36,18,36,17,36,16,36,15,36,14,36,13,37,13,38,13,39,13,40,13,41,13,42,13,43,13,44,13,45,13,46,13,47,13,48,13,49,13,50,13,51,13,52,13,53,13,54,13,55,13,56,13,57,13,58,13,59,13,60,13,61,13," end-node-cid="n1" start-node-parent="subcircuit" start-node-cid="4" id="connector__926" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__898" route="31,22,32,22,33,22,34,22,35,22,36,22,37,22,38,22,38,21,38,20,38,19,38,18,38,17,39,17,40,17,41,17,42,17,43,17,44,17,45,17,46,17,47,17,48,17,49,17,50,17,51,17,52,17,53,17,54,17,55,17,56,17,57,17,58,17,59,17,60,17,61,17," end-node-cid="n1" start-node-parent="subcircuit" start-node-cid="7" id="connector__927" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__899" route="31,24,32,24,33,24,34,24,35,24,36,24,37,24,38,24,39,24,39,23,39,22,39,21,40,21,41,21,42,21,43,21,44,21,45,21,46,21,47,21,48,21,49,21,50,21,51,21,52,21,53,21,54,21,55,21,56,21,57,21,58,21,59,21,60,21,61,21," end-node-cid="n1" start-node-parent="subcircuit" start-node-cid="6" id="connector__928" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__900" route="31,26,32,26,32,27,33,27,34,27,35,27,36,27,37,27,38,27,38,26,38,25,39,25,40,25,41,25,42,25,43,25,44,25,45,25,46,25,47,25,48,25,49,25,50,25,51,25,52,25,53,25,54,25,55,25,56,25,57,25,58,25,59,25,60,25,61,25," end-node-cid="n1" start-node-parent="subcircuit" start-node-cid="5" id="connector__929" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__902" route="17,56,16,56,16,57,16,58,16,59,16,60,16,61,16,62,17,62,18,62,19,62,20,62,21,62,22,62,23,62,24,62,25,62,26,62,27,62,28,62,29,62,30,62,31,62,32,62,32,61,32,60,32,59,32,58,32,57,32,56,32,55,32,54,32,53,32,52,32,51,32,50,32,49,32,48,32,47,32,46,32,45,32,44,32,43,32,42,33,42,34,42,35,42,36,42,37,42,38,42,39,42,40,42,41,42,42,42,43,42,44,42,45,42,46,42,47,42,48,42,49,42,50,42,51,42,52,42,53,42,54,42,55,42,56,42,57,42,58,42,59,42,60,42," end-node-cid="n1" start-node-parent="subcircuit__915" start-node-cid="4" id="connector__930" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__903" route="29,52,30,52,31,52,32,52,33,52,34,52,34,51,34,50,34,49,34,48,34,47,34,46,35,46,36,46,37,46,38,46,39,46,40,46,41,46,42,46,43,46,44,46,45,46,46,46,47,46,48,46,49,46,50,46,51,46,52,46,53,46,54,46,55,46,56,46,57,46,58,46,59,46,60,46," end-node-cid="n1" start-node-parent="subcircuit__915" start-node-cid="7" id="connector__931" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__904" route="29,54,30,54,31,54,32,54,33,54,34,54,35,54,36,54,36,53,36,52,36,51,36,50,37,50,38,50,39,50,40,50,41,50,42,50,43,50,44,50,45,50,46,50,47,50,48,50,49,50,50,50,51,50,52,50,53,50,54,50,55,50,56,50,57,50,58,50,59,50,60,50," end-node-cid="n1" start-node-parent="subcircuit__915" start-node-cid="6" id="connector__932" end-node-is-child="1" />
+ <connector start-node-is-child="1" manual-route="1" end-node-parent="external_connection__905" route="29,56,30,56,31,56,32,56,33,56,34,56,35,56,36,56,37,56,37,55,37,54,38,54,39,54,40,54,41,54,42,54,43,54,44,54,45,54,46,54,47,54,48,54,49,54,50,54,51,54,52,54,53,54,54,54,55,54,56,54,57,54,58,54,59,54,60,54," end-node-cid="n1" start-node-parent="subcircuit__915" start-node-cid="5" id="connector__933" end-node-is-child="1" />
+</document>

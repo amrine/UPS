@@ -1,0 +1,45 @@
+Les hackers
+
+Les hackers considérés à tort comme des pirates ont eu bien du mal à défendre leur réputation. De plus la confusion apportée par des termes comme « ethical hacker », hacker « black hat » ou « white hat » n’a fait qu’aggraver les choses.La réalité est bien loin de ce que nous chantent les médias : Les hackers ne sont pas des pirates, ils ne s’introduisent pas illégalement dans des systèmes d’information ne leur appartenant pas, et ce qu’elles que soient leurs motivations.
+
+Un hacker est tout simplement une personne passionnée par le fonctionnement des rouages des systèmes d’exploitation et des réseaux. Bien qu’il s’agisse souvent de programmeurs, cela n’est pas toujours le cas.
+
+De part ses connaissances avancées dans divers domaines, il découvre souvent de nouvelles vulnérabilités à différents niveaux (réseau, système, application…), mais ces découvertes ne sont pas utilisées contre d’autres systèmes même s’il peut découvrir par hasard lors d’une manipulation « normale » une vulnérabilité sur un système qui n’est pas le sien.
+
+Le terme « hacker » est apparu au sein du MIT. Les gens à l’origine de la création d’Internet ou des systèmes d’exploitation Unix peuvent être considérés comme des hackers. Ken Thompson ou encore Richard Stallman sont des hackers.
+
+Contrairement à ce que l’on peut trouver dans certaines publications soi disant « underground », où les « hackers » sont décrits avec une cigarette au bec, cheveux sales et une canette de bière à coté du bureau, les vrais hackers refusent toute forme de dépendance et de soumission (car elle serait une entrave à leur développement) et par là même ces futilités que sont l’alcool et la cigarette…
+
+Les crackers
+
+Un cracker est une personne qui porte atteinte volontairement à l’intégrité d’un système d’information, généralement à des fins malveillantes. Il peut détruire ou dérober des données, attaquer d’autres systèmes, ou effectuer toute autre acte nuisible. Certains d’entre eux cependant peuvent ne pas êtres destructeurs.
+
+Il existe plusieurs catégories de crackers (pirates). Nombre d’entre eux s’auto-proclament hackers. D’autres préfèrent le terme de hacker « whitehat ». Pourtant si les motivations des crackers peuvent être très différentes en fonction de la situation (intérêt, challenge, défi, vengeance, argent, contrat, information) le cracker reste un pirate.
+
+Une infime minorité de pirates sont d’un excellent niveau, ils se rapprochent des hackers en terme de compétence et de passion. Certains hackers deviennent parfois des pirates, ils cessent alors d’être des hackers. Parfois le contraire se produit, et un pirate talentueux peut se « ranger » et devenir lui même hacker.
+
+Ce qui les différencie reste alors le « mens rea », c’est à dire l’intention coupable.
+
+La grande majorité des pirates n’a rien à voir avec les hackers. Souvent peu compétents ils se contentent d’utiliser des outils d’exploitation automatique à la recherche souvent aléatoire de machines potentiellement vulnérables. On les appelle souvent sous les sobriquets de « lamers » ou plus récemment « script kiddies ».
+
+Les crackers les plus dangereux et les plus talentueux n’ont souvent rien à voir avec le profil « petit génie » de l’informatique autiste caché derrière son clavier. En effet le maillon le plus faible de tout système d’information reste avant tout le facteur humain, et c’est plus souvent la connaissance et l’exploitation de faiblesses humaines (Social Engineering) qui fait réellement la différence.
+
+Connaître un minimum de psychologie, savoir inspirer immédiatement confiance par un simple appel téléphonique sont alors des compétences obligatoires pour la réussite dans la pénétration de réseaux et systèmes d’information hautement protégés. Pour conclure nous dirons également que certains individus sont les exceptions de ces « règles » et ont du mal à être classifiés dans l’une ou l’autre des deux catégories (pirate ou hackers ?). Cependant ces exceptions ne sont plus d’actualité depuis quelques années.
+
+En effet aux prémices d’internet, à l’époque de l’apogée des BBS et réseaux parallèles tels GTI, il était impensable pour un passionné de pouvoir travailler sur un système unix. Ce système d’exploitation était en effet réservé aux organisations fortunées capables de s’offrir LA machine et l’unix qui allait avec. Même en économisant pendant plus d’un an, aucun citoyen « lambda » ne pourrait obtenir de tels systèmes.
+
+A cette époque certains hackers ont alors pénétré certains systèmes informatiques, non pas pour y dérober des données ou effectuer des actes nuisibles mais simplement pour pouvoir étudier ce système et en apprendre d’avantage.
+
+Si, en effet, cette motivation a pu être compréhensible, cette époque est révolue : depuis l’avènement de Gnu/Linux et autres systèmes libres, n’importe qui peut récupérer quelques vieilles machines dans une décharge ou pour une bouchée de pain, et se monter son propre réseau, systèmes et serveurs pour en étudier les rouages sous toutes les coutures.
+
+Les consultants sécurité
+
+Consultant : un mot à la signification bien vague et imprécise… C’est celui que l’on consulte, parfois pourtant celui qui intervient directement, les définitions sont encore plus nombreuses que dans les cas précédents. Il est difficile de « classifier » le rôle des consultants et experts sécurité dans le milieu de la sécurité informatique. En effet cette dernière comprend un nombre particulièrement important de disciplines différentes.
+
+Tests d’intrusion, de vulnérabilité, audit interne, politique de sécurité de sa conception à son application, opérations de sécurisation sous différentes formes (firewall, ids, bastions, etc…), sécurité applicative, guerre de l’information ou encore cryptographie et cryptanalyse : chaque discipline requiert des compétences bien précises et spécifiques
+
+Les tests d’intrusion sont la prestation ayant le lien de parenté le plus direct avec l’underground. En effet un test d’intrusion a pour but de tester la sécurité d’un système d’information en se mettant dans l’exacte situation d’un cracker.
+
+Exceptionnellement certains anciens crackers peuvent se voir quelques années après devenir d’excellents consultants en sécurité spécialisés en techniques intrusives.
+
+Pour conclure, j’espère que cet article contribuera à rétablir la vérité sur ce monde passionnant, ou, malheureusement les idées reçues et les préjugés, ont scellé, il y a bien longtemps, le « sort » médiatique des véritables hackers.

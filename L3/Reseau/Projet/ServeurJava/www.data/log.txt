@@ -1,0 +1,149 @@
+OUMAR-HTTPSERVER v.1
+Coded by Diallo Alpha Oumar Binta (21007631)
+<aob.diallo@gmail.com>
+
+Wed Dec 05 00:38:38 CET 2012
+Uploading extensions...
+Uploading extensions terminated
+Trying to bind to localhost on port 7000
+The server is openned on port 7000
+
+Ready, Waiting for requests...
+
+Handle new connection => Client 1 on 127.0.0.1 : 58462
+Client 1 on 127.0.0.1 : 58462 request:
+	GET / HTTP/1.0
+Client 1 on 127.0.0.1 : 58462 disconnected
+Handle new connection => Client 2 on 127.0.0.1 : 58463
+Client 2 on 127.0.0.1 : 58463 request:
+	GET / HTTP/1.0
+Client 2 on 127.0.0.1 : 58463 disconnected
+Handle new connection => Client 3 on 0:0:0:0:0:0:0:1 : 58465
+Handle new connection => Client 4 on 0:0:0:0:0:0:0:1 : 58466
+Client 4 on 0:0:0:0:0:0:0:1 : 58466 request:
+	GET / HTTP/1.1
+Client 4 on 0:0:0:0:0:0:0:1 : 58466 disconnected
+Client 3 on 0:0:0:0:0:0:0:1 : 58465 request:
+	GET /favicon.ico HTTP/1.1
+Client 3 on 0:0:0:0:0:0:0:1 : 58465 disconnected
+Handle new connection => Client 5 on 0:0:0:0:0:0:0:1 : 58563
+Handle new connection => Client 6 on 0:0:0:0:0:0:0:1 : 58564
+Client 5 on 0:0:0:0:0:0:0:1 : 58563 request:
+	GET /alpha.jpg HTTP/1.1
+Client 5 on 0:0:0:0:0:0:0:1 : 58563 disconnected
+Client 6 on 0:0:0:0:0:0:0:1 : 58564 request:
+	GET /favicon.ico HTTP/1.1
+Client 6 on 0:0:0:0:0:0:0:1 : 58564 disconnected
+Handle new connection => Client 7 on 0:0:0:0:0:0:0:1 : 58565
+Handle new connection => Client 8 on 0:0:0:0:0:0:0:1 : 58566
+Client 7 on 0:0:0:0:0:0:0:1 : 58565 request:
+	GET /alpha.jped HTTP/1.1
+Client 7 on 0:0:0:0:0:0:0:1 : 58565 disconnected
+Client 8 on 0:0:0:0:0:0:0:1 : 58566 request:
+	GET /favicon.ico HTTP/1.1
+Client 8 on 0:0:0:0:0:0:0:1 : 58566 disconnected
+Handle new connection => Client 10 on 0:0:0:0:0:0:0:1 : 58568
+Handle new connection => Client 9 on 0:0:0:0:0:0:0:1 : 58567
+Client 9 on 0:0:0:0:0:0:0:1 : 58567 request:
+	GET /naruto.jpeg HTTP/1.1
+Client 9 on 0:0:0:0:0:0:0:1 : 58567 disconnected
+Client 10 on 0:0:0:0:0:0:0:1 : 58568 request:
+	GET /favicon.ico HTTP/1.1
+Client 10 on 0:0:0:0:0:0:0:1 : 58568 disconnected
+Handle new connection => Client 11 on 0:0:0:0:0:0:0:1 : 58569
+Handle new connection => Client 12 on 0:0:0:0:0:0:0:1 : 58570
+Client 11 on 0:0:0:0:0:0:0:1 : 58569 request:
+	GET /naruto.jpg HTTP/1.1
+Client 11 on 0:0:0:0:0:0:0:1 : 58569 disconnected
+Client 12 on 0:0:0:0:0:0:0:1 : 58570 request:
+	GET /favicon.ico HTTP/1.1
+Client 12 on 0:0:0:0:0:0:0:1 : 58570 disconnected
+Handle new connection => Client 13 on 127.0.0.1 : 58571
+Client 13 on 127.0.0.1 : 58571 request:
+	GET /naruto.jpg HTTP/1.0
+Client 13 on 127.0.0.1 : 58571 disconnected
+Handle new connection => Client 14 on 127.0.0.1 : 58577
+Client 14 on 127.0.0.1 : 58577 request:
+	GET /sujet.pdf HTTP/1.0
+Client 14 on 127.0.0.1 : 58577 disconnected
+Handle new connection => Client 15 on 0:0:0:0:0:0:0:1 : 58578
+Handle new connection => Client 16 on 0:0:0:0:0:0:0:1 : 58579
+Client 15 on 0:0:0:0:0:0:0:1 : 58578 request:
+	GET /sujet.pdf HTTP/1.1
+Client 15 on 0:0:0:0:0:0:0:1 : 58578 disconnected
+ERROR on Client 16 on 0:0:0:0:0:0:0:1 : 58579 request:
+	null
+ERROR on sending file:
+	Software caused connection abort: socket write error
+Client 16 on 0:0:0:0:0:0:0:1 : 58579 disconnected
+Handle new connection => Client 17 on 127.0.0.1 : 58583
+Client 17 on 127.0.0.1 : 58583 request:
+	GET /sobokan.exe HTTP/1.0
+Client 17 on 127.0.0.1 : 58583 disconnected
+Handle new connection => Client 18 on 0:0:0:0:0:0:0:1 : 58584
+Handle new connection => Client 19 on 0:0:0:0:0:0:0:1 : 58585
+Client 18 on 0:0:0:0:0:0:0:1 : 58584 request:
+	GET / HTTP/1.1
+Client 18 on 0:0:0:0:0:0:0:1 : 58584 disconnected
+Handle new connection => Client 20 on 0:0:0:0:0:0:0:1 : 58586
+Client 19 on 0:0:0:0:0:0:0:1 : 58585 request:
+	GET /sobokan.exe HTTP/1.1
+Client 19 on 0:0:0:0:0:0:0:1 : 58585 disconnected
+ERROR on Client 20 on 0:0:0:0:0:0:0:1 : 58586 request:
+	null
+ERROR on sending file:
+	Software caused connection abort: socket write error
+Client 20 on 0:0:0:0:0:0:0:1 : 58586 disconnected
+Handle new connection => Client 22 on 0:0:0:0:0:0:0:1 : 58590
+Handle new connection => Client 21 on 0:0:0:0:0:0:0:1 : 58589
+Client 21 on 0:0:0:0:0:0:0:1 : 58589 request:
+	GET /archive.zip HTTP/1.1
+Client 21 on 0:0:0:0:0:0:0:1 : 58589 disconnected
+ERROR on Client 22 on 0:0:0:0:0:0:0:1 : 58590 request:
+	null
+ERROR on sending file:
+	Software caused connection abort: socket write error
+Client 22 on 0:0:0:0:0:0:0:1 : 58590 disconnected
+Handle new connection => Client 23 on 127.0.0.1 : 58591
+Client 23 on 127.0.0.1 : 58591 request:
+	GET /archive.zip HTTP/1.0
+Client 23 on 127.0.0.1 : 58591 disconnected
+Handle new connection => Client 24 on 0:0:0:0:0:0:0:1 : 58592
+Handle new connection => Client 25 on 0:0:0:0:0:0:0:1 : 58593
+Client 25 on 0:0:0:0:0:0:0:1 : 58593 request:
+	GET /sujet.pdf HTTP/1.1
+Client 25 on 0:0:0:0:0:0:0:1 : 58593 disconnected
+Client 24 on 0:0:0:0:0:0:0:1 : 58592 request:
+	GET /favicon.ico HTTP/1.1
+Client 24 on 0:0:0:0:0:0:0:1 : 58592 disconnected
+Handle new connection => Client 26 on 127.0.0.1 : 58594
+Client 26 on 127.0.0.1 : 58594 request:
+	PUT /naruto1.jpg HTTP/1.0
+Client 26 on 127.0.0.1 : 58594 disconnected
+Handle new connection => Client 27 on 127.0.0.1 : 58595
+Client 27 on 127.0.0.1 : 58595 request:
+	PUT /naruto1.jpg HTTP/1.0
+Client 27 on 127.0.0.1 : 58595 disconnected
+Handle new connection => Client 28 on 127.0.0.1 : 58596
+Client 28 on 127.0.0.1 : 58596 request:
+	PUT /archive.zip HTTP/1.0
+Client 28 on 127.0.0.1 : 58596 disconnected
+Handle new connection => Client 29 on 127.0.0.1 : 58597
+Client 29 on 127.0.0.1 : 58597 request:
+	PUT /sujet.pdf HTTP/1.0
+Client 29 on 127.0.0.1 : 58597 disconnected
+Handle new connection => Client 30 on 127.0.0.1 : 58598
+Client 30 on 127.0.0.1 : 58598 request:
+	PUT /pageWeb.html HTTP/1.0
+Client 30 on 127.0.0.1 : 58598 disconnected
+Handle new connection => Client 31 on 127.0.0.1 : 58643
+Client 31 on 127.0.0.1 : 58643 request:
+	PUT /sobokan.exe HTTP/1.0
+Client 31 on 127.0.0.1 : 58643 disconnected
+Handle new connection => Client 32 on 127.0.0.1 : 58644
+Client 32 on 127.0.0.1 : 58644 request:
+	PUT /bidule.txt HTTP/1.0
+Client 32 on 127.0.0.1 : 58644 disconnected
+
+Creating log file ...
+

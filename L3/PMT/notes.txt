@@ -1,0 +1,2 @@
+configuration vi: :set nocp
+history affiche les dernieres commandes tapées avec leur numero ex:ls 28 pour reexecuter ln VEURA17Y1X.txt o

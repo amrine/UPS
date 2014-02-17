@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title> Recherche d'un livre </title>
+	</head>
+	<body>
+		<form action="resultrecherche.php" methode="get">
+			<p> Quel livre recherchez vous ? </p>
+			<table>
+				<th> RECHERCHE DE LIVRE </th>
+				<tr>
+					<td> Titre du livre : </td>
+					<td> <input type="text" size="40" name="ftitre" /> </td>
+				</tr><tr>
+					<td> Un des auteurs du livre :&nbsp; </td>
+					<td> <input type="text" size="20" name="fauteur" /> </td>
+				</tr><tr>
+					<td> Format : </td>
+					<td> <input type="checkbox" name="fpoche" /> Poche <br/>
+					 	 <input type="checkbox" name="fgrand" /> Grand Format <br/>
+					 	 <input type="checkbox" name="frelie" /> Reli&eacute; </td>
+				</tr>
+			</table>
+			<p><input type="submit" value="Rechercher" /></p>
+		</form>
+	</body>
+</html>
+

@@ -1,0 +1,41 @@
+|Time     | 192.168.0.10      | 204.152.191.37    |
+|22,506   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|22,701   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|23,505   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|23,703   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|24,506   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|24,702   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|25,509   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|25,704   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|26,510   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|26,705   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|32,632   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|32,827   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|33,637   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|33,833   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|34,638   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|34,833   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|35,638   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|35,834   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |
+|36,637   |         Echo (ping) request           |ICMP: Echo (ping) request
+|         |(0)      ------------------>  (0)      |
+|36,832   |         Echo (ping) reply             |ICMP: Echo (ping) reply
+|         |(0)      <------------------  (0)      |

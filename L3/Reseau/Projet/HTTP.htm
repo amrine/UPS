@@ -1,0 +1,655 @@
+
+<!-- saved from url=(0049)http://moodle.ups-tlse.fr/file.php/1359/HTTP.html -->
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 9">
+<meta name="Originator" content="Microsoft Word 9">
+<link rel="File-List" href="http://marine.edu.ups-tlse.fr/~torguet/cours/l3rx/HTTP_fichiers/filelist.xml">
+<title>HTTP</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Pujado</o:Author>
+  <o:LastAuthor>Pujado</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>9</o:TotalTime>
+  <o:Created>2001-02-19T09:54:00Z</o:Created>
+  <o:LastSaved>2001-02-19T09:54:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>464</o:Words>
+  <o:Characters>2646</o:Characters>
+  <o:Company>IRIT</o:Company>
+  <o:Lines>22</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>3249</o:CharactersWithSpaces>
+  <o:Version>9.4402</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Courier;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:35.4pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l0 level1 lfo1;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-bidi-font-weight:normal;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:70.8pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l0 level2 lfo1;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+h3
+	{mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:106.2pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	mso-list:l0 level3 lfo1;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-bidi-font-weight:normal;}
+h4
+	{mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:141.6pt;
+	text-align:justify;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	mso-list:l0 level4 lfo1;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-bidi-font-weight:normal;}
+h5
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:177.0pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	mso-list:l0 level5 lfo1;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:normal;}
+h6
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:212.4pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	mso-list:l0 level6 lfo1;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:247.8pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	mso-list:l0 level7 lfo1;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:283.2pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	mso-list:l0 level8 lfo1;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:318.6pt;
+	text-indent:-35.4pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	mso-list:l0 level9 lfo1;
+	font-size:9.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.Machinecrire
+	{mso-style-name:"Machine à écrire";
+	mso-style-parent:"";
+	mso-ansi-font-size:12.0pt;
+	mso-ascii-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:-5;
+	mso-list-template-ids:-1;}
+@list l0:level1
+	{mso-level-style-link:"Titre 1";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:35.4pt;
+	text-indent:-35.4pt;}
+@list l0:level2
+	{mso-level-style-link:"Titre 2";
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:70.8pt;
+	text-indent:-35.4pt;}
+@list l0:level3
+	{mso-level-style-link:"Titre 3";
+	mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:106.2pt;
+	text-indent:-35.4pt;}
+@list l0:level4
+	{mso-level-style-link:"Titre 4";
+	mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:141.6pt;
+	text-indent:-35.4pt;}
+@list l0:level5
+	{mso-level-style-link:"Titre 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:177.0pt;
+	text-indent:-35.4pt;}
+@list l0:level6
+	{mso-level-style-link:"Titre 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:212.4pt;
+	text-indent:-35.4pt;}
+@list l0:level7
+	{mso-level-style-link:"Titre 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:247.8pt;
+	text-indent:-35.4pt;}
+@list l0:level8
+	{mso-level-style-link:"Titre 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:283.2pt;
+	text-indent:-35.4pt;}
+@list l0:level9
+	{mso-level-style-link:"Titre 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:35.4pt;
+	mso-level-legacy-space:0cm;
+	margin-left:318.6pt;
+	text-indent:-35.4pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/document_iterator.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/find_proxy.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/get_html_text.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/global_constants.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/name_injection_builder.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/number_injection_builder.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/menu_injection_builder.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/string_finder.js"></script><script src="chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/change_sink.js"></script><meta name="document_iterator.js"><meta name="find_proxy.js"><meta name="get_html_text.js"><meta name="global_constants.js"><meta name="name_injection_builder.js"><meta name="number_injection_builder.js"><meta name="menu_injection_builder.js"><meta name="string_finder.js"><meta name="change_sink.js"></head><body style="" lang="FR" link="blue" vlink="purple">
+
+<div class="Section1">
+
+<div style="border: 0.75pt solid windowtext; padding: 4pt;">
+
+<p class="MsoNormal" style="border: medium none ; margin: 0cm 144.25pt 0.0001pt 5cm; padding: 0cm; text-align: center;" align="center"><b style=""><span style="font-size: 14pt;">
+Licence Informatique<o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="border: medium none ; margin: 0cm 144.25pt 0.0001pt 5cm; padding: 0cm; text-align: center;" align="center"><b style=""><span style="font-size: 14pt;"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="border: medium none ; margin: 0cm 144.25pt 0.0001pt 5cm; padding: 0cm; text-align: center;" align="center"><b style=""><span style="font-size: 14pt;">TP <o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="border: medium none ; margin: 0cm 144.25pt 0.0001pt 5cm; padding: 0cm; text-align: center;" align="center"><b style=""><span style="font-size: 14pt;"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></b></p>
+
+<p class="MsoNormal" style="border: medium none ; margin: 0cm 144.25pt 0.0001pt 5cm; padding: 0cm; text-align: center;" align="center"><b style=""><i style=""><span style="font-size: 12pt;">Le protocole HTTP</span></i></b></p>
+
+</div>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<h1><!--[if !supportLists]-->1.<span style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]-->Le protocole HTTP</h1>
+
+<p class="MsoNormal">Le client envoie une requête au serveur. Le format de la
+requête est le suivant :</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;">Requête<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>=<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Commande
+&lt;uri&gt; VersionDuProtocole &lt;CR, LF&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>[Entêtes]<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;CR,
+LF&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left: 106.2pt; text-indent: 35.4pt;"><span style="font-family: &quot;Courier New&quot;;">[CorpsDeLaRequête]<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;">VersionDuProtocole = HTTP/1.0 | HTTP/1.1 …<o:p></o:p></span></p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;Courier New&quot;;">URI (<b style="">U</b>niform <b style="">R</b>esource <b style="">I</b>dentifier)</span>&nbsp;: chaîne identifiant l’objet (par exemple
+une URL)</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoBodyText2"><span style="font-size: 10pt;">principales
+commandes&nbsp;:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal"><b style="">GET</b><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>:<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>demande l'envoi des données
+identifiées par l’<span style="font-family: &quot;Courier New&quot;;">URI</span>.</p>
+
+<p class="MsoNormal"><b style="">HEAD</b><span style="">&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>:<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>même chose que <span style="font-family: &quot;Courier New&quot;;">GET</span>
+mais retourne seulement les entêtes <span style="font-family: &quot;Courier New&quot;;">HTTP</span> sans le corps du document.</p>
+
+<p class="MsoNormal"><b style="">POST</b><span style="">&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>:<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>permet l'envoi des données d'un
+formulaire.</p>
+
+<p class="MsoNormal"><b style="">PUT</b><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>:<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>transmet un fichier au serveur.</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal">Les entêtes ont le format : </p>
+
+<p class="MsoNormal" style="text-indent: 35.4pt;"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">Mot-clé : Valeur<o:p></o:p></span></span></p>
+
+<p class="MsoNormal">Par exemple le mot-clé <span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">Accept</span></span> permet de préciser
+les types de données que sait gérer le navigateur Web, le mot-clé <span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">User-Agent</span></span>
+permet de préciser le nom et la version du navigateur.</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal">Exemple de requête :</p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><b><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB">GET /index.html
+HTTP/1.0<o:p></o:p></span></b></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Accept
+: text/html<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Accept
+: text/plain<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">User-Agent :
+Lynx/2.4 libwww/2.1.4<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal">La réponse envoyée par le serveur ce compose d'une première
+ligne précisant la version du protocole, un code de réponse et un message
+précisant la réponse, suivent éventuellement des entêtes (avec le même format
+que pour la requête), une ligne vide et le corps de la réponse.</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<table style="border: medium none ; border-collapse: collapse;" border="1" cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td style="border: 0.5pt solid windowtext; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">Code</p>
+  </td>
+  <td style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Type</p>
+  </td>
+  <td style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext -moz-use-text-color; border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">Signification</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">1xx</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Informationnel</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">La commande a été reçue – le traitement est en cours.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">2xx</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Succès</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">La commande a été reçue correctement, comprise et
+  acceptée.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">3xx</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Redirection</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">La commande ne peut pas être exécutée telle qu'elle il
+  faudra faire autre chose pour la gérer totalement (par exemple aller chercher
+  le document ailleurs).</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">4xx</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Erreur client</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">La commande n'est pas correcte syntaxiquement ou ne peut
+  pas être traitée.</p>
+  </td>
+ </tr>
+ <tr>
+  <td style="border-style: none solid solid; border-color: -moz-use-text-color windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 3.5pt; width: 74.4pt;" valign="top" width="99">
+  <p class="MsoNormal">5xx</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 99.2pt;" valign="top" width="132">
+  <p class="MsoNormal">Erreur serveur</p>
+  </td>
+  <td style="border-style: none solid solid none; border-color: -moz-use-text-color windowtext windowtext -moz-use-text-color; border-width: medium 0.5pt 0.5pt medium; padding: 0cm 3.5pt; width: 371.95pt;" valign="top" width="496">
+  <p class="MsoNormal">Le serveur n'a pu traiter correctement une commande apparemment
+  correcte. </p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoCaption">Figure <!--[if supportFields]><span style='mso-element:
+field-begin'></span><span style="mso-spacerun: yes"> </span>SEQ Figure \*
+ARABIC <span style='mso-element:field-separator'></span><![endif]-->1<!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]-->: types de code de réponse</p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal">Exemple de réponse :</p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><b><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB">HTTP/1.0 200 OK<o:p></o:p></span></b></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Server
+: NCSA/1.4.2<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>MIME-Version
+: 1.0<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Content-type
+: text/html<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><b>Content-length
+: 97<o:p></o:p></b></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;HTML&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;HEAD&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;TITLE&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">Exemple de
+document HTML<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB">&lt;/TITLE&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;HEAD&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;BODY&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;" lang="EN-GB"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;">(Corps du
+document)<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;/BODY&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><span class="Machinecrire"><span style="font-size: 12pt; font-family: &quot;Courier New&quot;;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;/HTML&gt;<o:p></o:p></span></span></p>
+
+<p class="MsoNormal"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></p>
+
+<p class="MsoNormal">Pour plus de détail sur HTTP vous pouvez consulter la RFC
+1945 qui décrit la spécification de HTTP/1.0 (<a href="http://abcdrfc.free.fr/rfc-vf/rfc1945.html">http://abcdrfc.free.fr/rfc-vf/rfc1945.html</a>).</p>
+
+<h1><!--[if !supportLists]-->2.<span style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><!--[endif]-->Exemple d'observation avec Telnet</h1>
+
+<p class="MsoNormal">Pour examiner ce protocole nous allons nous connecter avec
+telnet sur le port 80 (port utilisé par les serveurs Web). Voici un exemple
+d'une transaction pour récupérer la page de garde du CICT. Tout ce qui est
+écrit en gras est tapé par l'utilisateur le reste est renvoyé par le serveur.</p>
+
+<p class="MsoNormal"><span style="font-family: Courier;"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">corail.cict.fr% telnet www.cict.fr 80<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Escape character is '^]'.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><b style=""><span style="font-family: Courier;" lang="EN-GB">GET /index.html HTTP/1.0<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><b style=""><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">HTTP/1.1 200 OK<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Date: Tue, 28 Nov 2000 09:06:43 GMT<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Server: Apache/1.3.12 (Unix) ApacheJServ/1.1.1 PHP/4.0.0<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Last-Modified: Mon, 10 Jul 2000 08:53:46 GMT<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Connection: close<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Content-Type: text/html<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;HTML&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;HEAD&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><span style="">&nbsp;</span></span><span style="font-family: Courier;">&lt;TITLE&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;"><span style="">&nbsp;</span>Le Centre Interuniversitaire de Calcul de Toulouse<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;"><span style="">&nbsp;</span></span><span style="font-family: Courier;" lang="EN-GB">&lt;/TITLE&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;/HEAD&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;body background="/images/LogoCICTfond.gif"&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;H1&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">&lt;IMG SRC="/images/LogoCICT-bleu.gif" width="358"
+height="111" ALT="[Logo CICT]"&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">...<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">...<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="font-family: Courier;" lang="EN-GB">Connection closed by foreign host.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="" lang="EN-GB"><!--[if !supportEmptyParas]-->&nbsp;<!--[endif]--><o:p></o:p></span></p>
+
+</div>
+
+</body><span id="skype_highlighting_settings" display="none" autoextractnumbers="1"></span><object id="skype_plugin_object" location.href="http://moodle.ups-tlse.fr/file.php/1359/HTTP.html" location.hostname="moodle.ups-tlse.fr" style="position: absolute; visibility: hidden; left: -100px; top: -100px; " width="0" height="0" type="application/x-vnd.skype.click2call.chrome.5.7.0"></object></html>
